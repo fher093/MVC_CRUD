@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; background: #f2f4f8; color: #222; }
+.banner { background: #1f4e79; color: #fff; text-align: center; padding: 20px; }
+.banner h1 { margin: 0 0 5px; }
+.banner p { margin: 0; opacity: .85; }
+.nav { display: flex; background: #163a5a; }
+.nav a { color: #fff; padding: 14px 22px; text-decoration: none; }
+.nav a:hover, .nav a.activo { background: #2e75b6; }
+main { max-width: 850px; margin: 25px auto; padding: 0 15px; }
+.seccion { background: #fff; padding: 22px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+.oculto { display: none; }
+label { display: block; margin: 14px 0 5px; font-weight: bold; }
+select, input[type=text], input[type=number] { width: 100%; padding: 9px; border: 1px solid #bbb; border-radius: 5px; }
+button { background: #2e75b6; color: #fff; border: 0; padding: 10px 18px; border-radius: 5px; cursor: pointer; margin-top: 12px; }
+button:hover { background: #1f4e79; }
+button.secundario { background: #6c757d; }
+.fila { display: flex; gap: 10px; align-items: center; }
+.fila input { flex: 1; }
+.fila button { margin-top: 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 18px; }
+th, td { padding: 9px; border-bottom: 1px solid #ddd; text-align: left; }
+th { background: #e8eef5; }
+.total { font-size: 18px; font-weight: bold; margin-top: 18px; }
+.mensaje { padding: 12px; border-radius: 5px; margin-bottom: 15px; }
+.mensaje.ok { background: #d4edda; color: #155724; }
+.mensaje.error { background: #f8d7da; color: #721c24; }
+footer { text-align: center; padding: 20px; color: #666; }
