@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(213, 213, 213);
+} 
+header{
+     position: relative; 
+     text-align: center; 
+     margin: 0 auto; 
+     padding: 5px;
+ } 
+
+ nav{ 
+    position: relative; 
+     
+     margin:auto; 
+     padding: 5px;
+    background-color:#9A1C18;
+ } 
+
+ nav ul{
+    position: relative;
+    margin: auto; 
+    width: 50%;
+    text-align: none;
+ } 
+
+ nav ul li{
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px;
+ } 
+
+ nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+ } 
+ 
+ .titulo{
+    color: blue; 
+    font-size: 20px; 
+   
+ }
